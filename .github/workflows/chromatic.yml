@@ -12,8 +12,10 @@ jobs:
     # The list of steps that the action will go through
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: 16.x
+          cache: 'yarn'
       - run: yarn
         #👇 Adds Chromatic as a step in the workflow
       - uses: chromaui/action@v1
