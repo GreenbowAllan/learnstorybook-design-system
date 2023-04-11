@@ -1,6 +1,6 @@
 {
   "name": "@greenbowallan/learnstorybook-design-system",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -91,5 +91,9 @@
   "main": "index.js",
   "repository": "https://github.com/GreenbowAllan/learnstorybook-design-system.git",
   "author": "Allan Asp Christensen <allan@greenbow.dk> (http://example.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  }
 }
